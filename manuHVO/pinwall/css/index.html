@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<head>
+<style>
+body {
+	margin:0px;
+	padding:0px;
+}
+.header {
+	background-color:#56c6ad;
+	overflow:hidden;	
+}
+.container {
+	width:1024px;
+	overflow:hidden;
+	margin:0px auto;
+}
+.header-part{overflow:hidden;}
+.header-part .header-part-left{
+	width:230px;
+	background:url(file:///D|/manuHVO/pinwall/img/pic.png) left no-repeat;
+	float:left;
+	margin-left:20px;
+}
+.header-part .header-part-left img{
+	padding:20px 43px;
+	border-bottom:1px solid #666;
+}
+.header-part .header-part-left ul li {
+	 list-style-type:none;
+     padding-bottom: 25px;
+     font-size:14pt;
+	 line-height:26px;
+}
+.header-part .header-part-right {
+	width:700px;
+	overflow:hidden;
+	padding-top:126px;
+	padding-left:50px;
+}
+.header-part .header-part-right img{
+	padding-left:63px;
+}
+.header-part .header-part-right p{
+	padding-top:73px;
+    font-size:19pt;
+    color:white;
+	margin:0px;
+	padding-bottom:65px;
+}
+.header-part .header-part-right h2{
+    border:2px solid white;
+    font-size:20pt;
+    color:white;
+    width:150px;
+    text-align:center;
+	margin:0px auto;
+	padding:10px;
+}
+.header-part .header-part-right .circle {
+	padding-top:48px;
+	padding-left:288px;
+	padding-bottom:33px;
+}
+.header-part .header-part-right .circle img{
+    text-align:center;
+	padding-left:11px;
+}
+
+.middle{
+	 background:#f4f4f4;
+	 overflow:hidden;
+}
+.logos {
+	overflow:hidden;
+}
+.logos img{
+	padding:15px 20px 28px 50px;
+}
+.main-line{
+	margin:0px;
+	padding-top:75px;
+}
+.line h2{
+	padding-left:134px;
+	font-size:30pt;
+	color:#797979;
+	padding-right:61px;
+	text-align:center;
+	margin:0px;
+	
+}
+.line p{
+	color:#35a28b;
+	font-size:14pt;
+	text-align:center;
+	margin:0px;
+	padding-top:47px;
+}
+.line h4{
+     border:1px solid white;
+     width:140px;
+     background:#1dc896;
+     taxt-align:center;
+	 padding:10px;
+     color:white;
+	 font-size:23pt;
+     margin-left:444px;	  
+}
+.footer{
+	background:#1dc896;
+}
+
+.footer .footer-left{
+	padding-left:50px;
+	padding-bottom:60px;
+	padding-top:54px;
+	float:left;
+	width:412px
+}
+.footer-left h2{
+	font-size:20pt;
+	color:white;
+}
+.footer-left p{
+	color:white;
+    font-size:14pt;
+}
+.footer-right h2{
+	font-size:20pt;
+	color:white;
+}
+.footer-right p{
+    font-size:14pt;
+	color:white;
+}
+.footer .footer-right{
+	padding-right:85px;
+	float:right;
+    padding-bottom:60px;
+    padding-top:54px;
+	width:412px;
+}
+.maping{
+	background:url(file:///D|/manuHVO/pinwall/img/from.png) no-repeat; 
+    background-size: 100%;
+}
+.maping .Address{
+	width:329px;
+	
+	margin-left:24px;
+	margin-top:351px;
+}
+.Address {
+	background:url(file:///D|/manuHVO/pinwall/img/address-1.png) no-repeat;
+}
+.Address h2{
+	padding-left:33px;
+	padding-top:30px;
+	font-size:30pt;
+    color:#666;
+}
+.Address Address{
+	width:251px;
+	padding-bottom:71px;
+	padding-left:33px;
+	font-size:12pt;
+    color:#666;
+} 
+.maping .contact{
+	float:right;
+	border-top:5px solid #36a486;
+	border-top-right-radius:6px;
+	border-top-left-radius:6px;
+}
+.contact{
+	margin-top:-441px;
+    border-top:5px solid #0FF;
+    border:1px solid #CCC;
+    width:426px;
+    background:#FFF;
+}
+.contact h2{
+    font-size:30t;
+    color:#797979;
+    padding-left:37px;
+}
+.contact p{
+	border:1px solid #999;
+	height:30px;
+	padding-left:18px;
+	padding:7px 0px 10px 16px;
+	color:#bdbec3;
+	margin: 28px 43px 14px 34px;
+	font-size:14pt;
+}
+
+.contact h4{
+    color:#bdbec3;
+    padding:7px 0px 10px 16px;
+    height:30px;
+	margin: 0px 43px 14px 34px;	 
+	border:1px solid #999;
+    font-size:14pt;
+}
+
+.contact h5{
+	color:#bdbec3;
+    padding:7px 0px 10px 16px;
+	height:30px;
+	margin: 28px 43px 14px 34px;	 
+	border:1px solid #999;
+    font-size:14pt;
+}
+
+.contact h6{
+	border:1px solid #999;
+    font-size:14pt;
+    color:#bdbec3;
+    padding:7px 0px 56px 16px;
+ 	margin: 28px 43px 0px 34px;
+}
+.contact h3{
+   margin-left:253px;
+   border:1px solid #1dc896;
+   background:#1dc896;
+   border-radius:2px;
+   width:126px;
+   text-align:center;
+   color:white;
+   font-size:18pt;
+   margin-top:25px;
+   padding-top:9px;
+   padding-bottom:12px;
+}
+</style>
+</head>
+
+<body>
+<!--header-part-start-->
+<div class="header">
+<div class="container">
+<div class="header-part">
+ <div class="header-part-left">
+ <img src="file:///D|/manuHVO/pinwall/img/pinnn.png"/>
+ <ul>
+ <li>Designing</li>
+ <li>Development</li>
+ <li>Inspiration</li>
+ <li>Freebies</li>
+ <li>Cssauthor</li>
+ <li>Contact us</li>
+ </ul>
+ </div>
+ 
+ <div class="header-part-right">
+ <img src="file:///D|/manuHVO/pinwall/img/twitter.png" >
+ <img src="file:///D|/manuHVO/pinwall/img/dribble.png" >
+ <img src="file:///D|/manuHVO/pinwall/img/camera.png" >
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+ <h2>Social media</h2>
+
+ <div class="circle">
+ <img src="file:///D|/manuHVO/pinwall/img/dot.png">
+ <img src="file:///D|/manuHVO/pinwall/img/dot (2).png">
+ <img src="file:///D|/manuHVO/pinwall/img/dot.png">
+ <img src="file:///D|/manuHVO/pinwall/img/dot.png">
+ <img src="file:///D|/manuHVO/pinwall/img/dot.png">
+ </div>
+ </div>
+</div>
+</div>
+</div>
+<!--header-part-end-->
+<!--middle-start-->
+<div class="middle">
+<div class="container">
+<div class="logos">
+<img src="file:///D|/manuHVO/pinwall/img/cocacola.png">
+<img src="file:///D|/manuHVO/pinwall/img/puma.png">
+<img src="file:///D|/manuHVO/pinwall/img/blackberees.png">
+<img src="file:///D|/manuHVO/pinwall/img/nes.png">
+</div>
+</div>
+</div>
+<!--middle-end-->
+<!--main-line-start-->
+<div class="main-line">
+<div class="container">
+<div class="line">
+<h2>At the same time that we are earnest to explore 
+& learn all things</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<h4>Thankyou</h4>
+</div>
+</div>
+</div>
+<!--main-line-end-->
+<!--footer-start-->
+<div class="footer">
+<div class="container">
+<div class="footer-left">
+<h2>At the same time that we are 
+earnest to explore & learn all things</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+</div>
+<div  class="footer-right">
+<h2>At the same time that we are 
+earnest to explore & learn all things</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+</div>
+</div>
+</div>
+<!--footer-end-->
+<div class="maping">
+<div class="container">
+<div class="Address">
+<h2>Address</h2>
+<Address>Web Design and Development Division
+2nd Floor,SA Tower
+Kollam
+Kerala,India
+</Address>
+</div>
+<div class="contact">
+<h2>contact us</h2>
+<p>home</p>
+<h4>email address</h4>
+<h5>phone</h5>
+<h6>message</h6>
+<h3>submit</h3>
+</div>
+</div>
+</div>
+</body>
+</html>
